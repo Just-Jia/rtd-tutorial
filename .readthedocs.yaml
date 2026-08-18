@@ -11,7 +11,7 @@ python:
     # Install our python package before building the docs
     # 建立前安装我们的 python 包
     - method: pip
-     path: .
+      path: .
 
 sphinx:
   configuration: docs/source/conf.py
